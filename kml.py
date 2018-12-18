@@ -26,7 +26,7 @@ def create_folder(elem: ET.Element, name:str ):
 def create_overlay(elem: ET.Element, zoom:int, x:int,y:int ):
     overlay = ET.SubElement(elem,"GroundOverlay")
     ET.SubElement(overlay, "name").text = "%s_%s"%(x,y)
-    ET.SubElement(overlay, "visibility").text = "0"
+    ET.SubElement(overlay, "visibility").text = "1"
     icon = ET.SubElement(overlay, "Icon")
     ET.SubElement(icon, "href").text = "%s/%s_%s.png" % (zoom,x,y)
     latlonbox = ET.SubElement(overlay, "LatLonBox")

@@ -1,0 +1,12 @@
+{
+    "main_win": {
+        "zoom1": 15,
+        "east": 116.072327,
+        "west": 116.051797,
+        "north": 40.196336,
+        "south": 40.186653,
+        "zoom2": 21,
+        "proj_folder": "E:\\",
+		"proj_name": "beijingliucun"
+    }
+}
